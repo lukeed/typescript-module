@@ -26,9 +26,9 @@ All configuration is accessible via the `rollup.config.js` and a few `package.js
 ## Setup
 
 1. [Clone this template](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template)
-2. Replace all instances of `TODO` within the `license` and `package.json` files.
-3. Create [CodeCov](https://codecov.io) account (free for OSS) & attach GitHub.
-4. Add `CODECOV_TOKEN` value as a [GitHub Secret](https://docs.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets#creating-encrypted-secrets-for-a-repository) (for CI reporting).
+2. Replace all instances of `TODO` within the `license` and `package.json` files
+3. Create [CodeCov](https://codecov.io) account (free for OSS)
+4. Copy the provided CodeCov token as the `CODECOV_TOKEN` [repository secret](https://docs.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets#creating-encrypted-secrets-for-a-repository) (for CI reporting)
 5. Replace `src/index.ts` and `test/index.ts` with your own code! 🎉
 
 ## Commands
