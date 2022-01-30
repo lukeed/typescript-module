@@ -13,11 +13,13 @@ export default {
 		format: 'cjs',
 		file: pkg.main,
 		sourcemap: false,
+		esModule: false,
 	}, {
 		name: pkg['umd:name'] || pkg.name,
 		format: 'umd',
 		file: pkg.unpkg,
 		sourcemap: false,
+		esModule: false,
 		plugins: [
 			terser()
 		]
